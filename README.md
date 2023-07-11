@@ -1,2 +1,2 @@
 # ibrahimsavi.github.io
-C öğrenirken olanlar
+# C öğrenirken olanlar
