@@ -1,0 +1,30 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        //Değer tipleri
+        //Console.WriteLine("Hello, World!");
+        int number1 = int.MaxValue;
+        long number2 = long.MaxValue;
+        short number3 = short.MaxValue;
+        byte number4 = byte.MaxValue;
+        char karakter = '!';
+        double number5 = double.MaxValue;
+        decimal number6 = decimal.MaxValue;
+        
+
+
+        Console.WriteLine("Integer types max value is {0} Long types max value is {1} Short types max value is {2} " +
+            "Byte types maxvalue is {3}",number1,number2, number3, number4);
+        Console.WriteLine("Char veri tipi örneği {0} Double max value is {1} Decimal max value is {2}",karakter , number5,number6);
+        Console.WriteLine((int)Days.Saturday);
+
+    }
+    
+    
+}
+//enum veri tipi dizilere benziyor. Class dışında tanımlanıyor.
+enum Days
+{
+    Sunday, Monday, Tuesday, Wednesday, Tgursday, Friday, Saturday
+}
